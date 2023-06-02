@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Health Care</title>
+  <link href="static/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="logo">
+    <div>
+      <table>
+        <tr>
+          <td width="600px" style="font-size:50px;font-family:forte;">
+            <font color="#428bca">Health</font>
+            <font color="#000">Care</font>
+          </td>
+          <td> <br> <br>
+            <font size="4px">
+              <a href="{{ url_for('home') }}">HOME</a>
+              <a href="{{ url_for('about') }}">ABOUT US</a>
+              <a href="{{ url_for('index') }}">SERVICE</a>
+              <a href="{{ url_for('contact') }}">CONTACT US</a>
+            </font>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="bottom_up">
+    <div>
+      Health care Services
+      <form id="patient-form">
+        <label for="data-input"><b>Enter your name</b></label>
+        <input type="text" id="data-input" placeholder="Enter your name" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email" required>
+        <label for="symptoms">Health Description:</label>
+        <textarea id="symptoms" name="symptoms" placeholder="Your health description" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <div id="result-container"></div>
+    </div>
+  </div>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
