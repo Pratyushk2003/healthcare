@@ -5,10 +5,8 @@ To run the code
 In terminal run the command 
 
     py app.py
-    
         OR
-        
-   python app.py 
+    python app.py 
    
 ![image](https://github.com/Pratyushk2003/healthcare-diseaseprediction/assets/77561223/1495064b-c035-46e5-ae7e-da915ca12497)
 # OUTPUT
