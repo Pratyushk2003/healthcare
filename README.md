@@ -1,4 +1,4 @@
-# healthcare-diseaseprediction
+# healthcare
 
 To run the code
 
@@ -20,3 +20,7 @@ In terminal run the command
 
 The only problem on which I am working now is that my ml model is trying to convert input to float
 ML Model link: https://github.com/Pratyushk2003/Disease-Prediction-using-Catboost
+
+
+# Disease Prediction using Catboost based on paitent symptoms
+Dataset Link: https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
